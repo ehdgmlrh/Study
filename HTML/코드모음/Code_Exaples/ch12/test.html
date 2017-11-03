@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <style type = "text/css">
+            #test
+            {
+                position: absolute;
+                display : inline;
+                right: 10px;
+                bottom : 0px;              
+            }
+            div
+            {
+                position: relative;
+                height: 3000px;
+                width : 3000px;
+                background-color: lightblue;
+            }
+        </style>
+        <script type = "text/javascript">
+            document.writeln(
+                "<h1>Hi<h1>"
+            )
+            document.writeln(
+                "<h1>Hi<h1>"
+            )
+            var div1 = document.getElementById("test");
+            div1.innerHTML = "Hello";
+                    
+        </script>
+    </head>
+    <body>
+        <div id = "div1">
+            <p id = "test">
+                
+            </p>
+        </div>
+    </body>
+</html>
